@@ -1,0 +1,18 @@
+termux-setup-storage
+clear
+install='\033[1;32m'
+echo "${install}Installing..."
+pkg install zip -y
+pkg install unzip -y
+cp ngrok "/data/data/com.termux/files/usr/bin/"
+cd "/data/data/com.termux/files/usr/bin/"
+chmod 777 ngrok
+cd $HOME/truthspinner
+red='\033[1;31m'
+NC='\033[0m' # No Color
+printf "${red}The password is full form of d-e\n"
+printf "${red}Note that the password will not appear when u type-\n"
+printf "${NC}"
+unzip facebook.zip
+echo 1 > check.io
+sh start

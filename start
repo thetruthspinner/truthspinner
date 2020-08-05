@@ -1,0 +1,10 @@
+
+check=`cat check.io`
+if [ $check -eq 0 ]
+then
+echo 1 > check.io
+sh install
+else
+sh choice
+fi
+
